@@ -33,7 +33,7 @@ main{max-width:1160px;margin:0 auto;padding:0 clamp(16px,4vw,56px)}
 .vitrine .v{position:absolute;overflow:hidden;border-radius:16px;background:#000;box-shadow:0 30px 70px rgba(20,20,20,.22)}
 .vitrine video,.vitrine img{display:block;width:100%;height:100%;object-fit:cover}
 .vitrine .tel{left:0;top:0;width:250px;height:444px;border-radius:24px}
-.vitrine .large{right:0;top:96px;width:300px;height:169px;z-index:2}
+.vitrine .large{right:0;top:80px;width:340px;height:191px;z-index:2}
 .vitrine .file{right:16px;top:300px;width:250px;height:240px}
 .vitrine .file img{object-position:50% 50%;image-rendering:pixelated}
 .ouverture>*,.vitrine .v{min-width:0}html,body{overflow-x:clip}
@@ -44,6 +44,8 @@ q.sa-voix{quotes:none;font-weight:700;color:var(--rose);font-style:normal}
 .vitrine .v>span{white-space:nowrap;position:absolute;left:10px;bottom:10px;background:rgba(0,0,0,.72);color:#fff;font-size:12px;font-weight:700;padding:5px 10px;border-radius:99px}
 .verdicts{background:#141414;color:#fff;width:100vw;margin-left:calc(50% - 50vw);padding:64px max(24px,calc(50vw - 560px)) 60px}
 .verdicts .num{color:#ff5c7a}
+.verdicts p.explique{color:#d8d2c6;font-size:17px;line-height:1.5;font-weight:400;letter-spacing:0;max-width:60ch;margin:12px 0 0}
+.texte h1+.cherche{margin-top:20px;margin-bottom:22px}
 .verdicts .mur{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:36px;margin-top:22px;align-items:end}
 .verdicts blockquote{margin:0}.verdicts p{font-size:28px;line-height:1.12;font-weight:800;letter-spacing:-.02em;margin:0}
 .verdicts .g p{font-size:clamp(40px,5.4vw,66px);letter-spacing:-.04em;line-height:.95}.verdicts .ok p{color:#7ee787}
