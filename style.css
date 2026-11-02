@@ -163,3 +163,13 @@ q.sa-voix{quotes:none;font-weight:700;color:var(--rose);font-style:normal}
 .cv h2{font-size:14px;letter-spacing:.12em;text-transform:uppercase;color:var(--rose);margin:36px 0 10px}
 .cv ul{padding-left:18px}.cv li{margin-bottom:8px}
 @media print{body{background:#fff}.cv h2{color:#000}.retour,.page button{display:none}}
+
+.accueil.sombre{background:#0f0e11;color:#f4f1ec;width:100vw;margin-left:calc(50% - 50vw);padding:clamp(40px,7vh,80px) max(16px,calc(50vw - 560px)) clamp(60px,9vh,100px)}
+.ouverture.a{grid-template-columns:330px 1fr;gap:64px}
+.telA{position:relative;width:330px;aspect-ratio:9/16;border-radius:30px;overflow:hidden;background:#000;box-shadow:0 0 0 6px #232126,0 40px 90px rgba(224,36,74,.25)}
+.telA video{display:block;width:100%;height:100%;object-fit:cover}
+.telA>span{position:absolute;left:12px;bottom:12px;background:rgba(0,0,0,.72);color:#fff;font-size:12px;font-weight:700;padding:5px 10px;border-radius:99px}
+.sombre h1 em{color:#ff4d6d}.sombre .sous{color:#bdb6aa;margin-bottom:22px}
+.sombre .cherche{background:#1d1b20;color:#e7e1d6;margin:0 0 26px}
+.btn.clair{border-color:#f4f1ec;color:#f4f1ec}
+@media (max-width:900px){.ouverture.a{grid-template-columns:1fr;gap:32px}.ouverture.a .texte{order:-1}.telA{width:min(300px,100%);margin:0 auto}}
