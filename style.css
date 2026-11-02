@@ -173,3 +173,12 @@ q.sa-voix{quotes:none;font-weight:700;color:var(--rose);font-style:normal}
 .sombre .cherche{background:#1d1b20;color:#e7e1d6;margin:0 0 26px}
 .btn.clair{border-color:#f4f1ec;color:#f4f1ec}
 @media (max-width:900px){.ouverture.a{grid-template-columns:1fr;gap:32px}.ouverture.a .texte{order:-1}.telA{width:min(300px,100%);margin:0 auto}}
+
+.ouverture.a{grid-template-columns:minmax(0,1fr) 220px;gap:56px;align-items:center}
+.ouverture.a>*{min-width:0}
+.telA{width:220px;border-radius:22px;box-shadow:0 0 0 5px #232126,0 24px 60px rgba(224,36,74,.18)}
+.qui{font-size:15px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#ff4d6d;margin-bottom:14px}
+.outils{font-size:15px;color:#e7e1d6;margin:0 0 14px;font-weight:600}
+.cherche{max-width:100%}
+.frise b{white-space:nowrap}
+@media (max-width:900px){.ouverture.a{grid-template-columns:1fr;gap:28px}.ouverture.a .texte{order:0}.telA{width:min(200px,100%);margin:0 auto}}
